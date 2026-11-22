@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Marlowe Job — a stealth heist game</title>
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: #0a0c12;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  canvas {
+    display: block;
+    width: min(100vw, 160vh);
+    height: auto;
+    image-rendering: auto;
+  }
+</style>
+</head>
+<body>
+<canvas id="game" width="1280" height="800"></canvas>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
